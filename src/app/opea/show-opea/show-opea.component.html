@@ -1,0 +1,35 @@
+<table class="table table-striped">
+    <thead>       
+       <th>Id</th>
+       <th>Empresa</th>
+       <th>Tipo Empresa</th>
+    </thead>
+    <tbody>
+       <tr *ngFor="let item of clienteList$|async">
+        <td>{{item.id}}</td>   
+        <td>{{item.nomeEmpresa}}</td>
+        <td>{{item.tipoEmpresaID}}</td>
+       </tr>
+    </tbody>
+ </table>
+
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Mostrar Tipos Empresa
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Tipos Empresa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <p *ngFor="let tipo of tipoEmpresaList$|async">{{tipo.id}} - {{tipo.tipo}}</p>
+        </div>      
+      </div>
+    </div>
+  </div>
