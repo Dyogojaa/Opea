@@ -1,1 +1,25 @@
-<p>add-edit-opea works!</p>
+<form> 
+    
+    <div class="mb-3">
+        <label for="nomeEmpresa" class="form-label">Nome da Empresa</label>
+        <input type="text" class="form-control" [(ngModel)]="nomeEmpresa" name="nomeEmpresa">
+    </div>
+    
+    <div class="mb-3">
+        <label for="tipoEmpresaID" class="form-label">Tipo de Empresa</label>
+        <input type="text" class="form-control" name="tipoEmpresaID" [(ngModel)]="tipoEmpresaID" *ngIf="cliente.id!=0" disabled="">
+        <select name="tipoEmpresaID" id="tipoEmpresaID" class="form-control" 
+        [(ngModel)]="tipoEmpresaID" *ngIf="cliente.id==0" >
+        <option *ngFor="let tipo of tipoEmpresaList$|async" [value]="tipo.id" >
+            {{tipo.tipo}}
+        </option></select>
+    </div>
+    <button (click)="addCliente()" *ngIf="cliente.id==0" class="btn btn-primary">Adicionar</button> 
+    <button (click)="updateCliente()" *ngIf="cliente.id!=0" class="btn btn-primary">Atualizar</button> 
+    
+</form>
+
+
+
+
+
