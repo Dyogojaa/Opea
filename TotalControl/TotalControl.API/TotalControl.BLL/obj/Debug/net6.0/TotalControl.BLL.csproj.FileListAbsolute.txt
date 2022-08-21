@@ -1,0 +1,12 @@
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\bin\Debug\net6.0\TotalControl.BLL.deps.json
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\bin\Debug\net6.0\TotalControl.BLL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\bin\Debug\net6.0\TotalControl.BLL.pdb
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.csproj.AssemblyReference.cache
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.AssemblyInfoInputs.cache
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.AssemblyInfo.cs
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.csproj.CoreCompileInputs.cache
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\refint\TotalControl.BLL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\TotalControl.BLL.pdb
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.BLL\obj\Debug\net6.0\ref\TotalControl.BLL.dll

@@ -1,0 +1,40 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TotalControl.BLL.Models;
+
+namespace TotalControl.DAL.Mapeamentos
+{
+    public class GanhoMap : IEntityTypeConfiguration<Ganho>
+    {
+        public void Configure(EntityTypeBuilder<Ganho> builder)
+        {
+            builder.HasKey(g => g.GanhoId);
+
+            //Definicação do Campo como Chave Primaria
+            builder.HasKey(g => g.GanhoId);
+
+            //Define o Campo Descrição como Not Null, e possui 50 Posições
+            builder.Property(g => g.Descricao).IsRequired().HasMaxLength(50);
+            //Os campos Abaixo são criados como Obrigatórios (Not Null)
+            builder.Property(g => g.Valor).IsRequired();
+            builder.Property(g => g.Dia).IsRequired();
+            builder.Property(g => g.Ano).IsRequired();
+
+                        
+            //Relacionamento On para Muitos, uma Catergoria está relacionado com muitas despesas
+            builder.HasOne(g => g.Categoria).WithMany(g => g.Ganhos).HasForeignKey(g => g.CategoriaId).IsRequired();
+            builder.HasOne(g => g.Mes).WithMany(g => g.Ganhos).HasForeignKey(g => g.MesId).IsRequired();
+            builder.HasOne(g => g.Usuario).WithMany(g => g.Ganhos).HasForeignKey(g => g.UsuarioId).IsRequired();
+
+
+            builder.ToTable("Ganhos");
+
+
+        }
+    }
+}

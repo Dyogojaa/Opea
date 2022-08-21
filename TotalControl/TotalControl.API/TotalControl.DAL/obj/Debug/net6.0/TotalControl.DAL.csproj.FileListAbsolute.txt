@@ -1,0 +1,17 @@
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\bin\Debug\net6.0\TotalControl.DAL.deps.json
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\bin\Debug\net6.0\TotalControl.DAL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\bin\Debug\net6.0\TotalControl.DAL.pdb
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\bin\Debug\net6.0\TotalControl.BLL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\bin\Debug\net6.0\TotalControl.BLL.pdb
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.csproj.AssemblyReference.cache
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.AssemblyInfoInputs.cache
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.AssemblyInfo.cs
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.csproj.CoreCompileInputs.cache
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.csproj.CopyComplete
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\refint\TotalControl.DAL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.pdb
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\ref\TotalControl.DAL.dll
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\bin\Debug\net6.0\TotalControl.DAL.runtimeconfig.json
+F:\Dyogo\Angular\TotalControl\TotalControl.API\TotalControl.DAL\obj\Debug\net6.0\TotalControl.DAL.genruntimeconfig.cache
